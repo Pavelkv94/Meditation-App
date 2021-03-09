@@ -29,6 +29,7 @@ position: relative;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-90deg);
     pointer-events: none;
+
 }
 /* .timeSelect {
     background: lightblue;
@@ -78,12 +79,21 @@ video {
     border-radius: 50%;
     padding: 30px;
 }
-
+.soundPicker button:focus {
+    outline: none;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
 .soundPicker button:nth-child(1){
-background: #4972a1;
+background: #0050aa;
 }
 .soundPicker button:nth-child(2){
     background: #a14f49;
+}
+.soundPicker button:nth-child(3){
+    background: #79ff5e;
+}
+.soundPicker button:nth-child(4){
+    background: #c28cff;
 }
 .soundPicker button img {
     height: 100%;

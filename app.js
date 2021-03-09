@@ -53,7 +53,13 @@ function app() {
         play.src = "./svg/play.svg";
       }
     };
-
+//restart
+    const restartSong = song =>{
+        let currentTime = song.currentTime;
+        song.currentTime = 0;
+        console.log("ciao")
+    
+    }
   //animated the circle
   song.ontimeupdate = () => {
     let currentTime = song.currentTime;
